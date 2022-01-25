@@ -91,6 +91,8 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -106,6 +108,7 @@ img {
 .header-list-contact {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .header-link:hover,
 .header-link:focus,
@@ -114,6 +117,7 @@ img {
   color: var(--accent);
 }
 .mail-icon {
+  box-sizing: border-box;
   fill: currentColor;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -397,6 +401,7 @@ img {
 }
 .footer-right {
   padding-top: 72px;
+  margin-right: 93px;
 }
 .footer-logo-web {
   font-family: Raleway;
@@ -474,6 +479,48 @@ img {
 .footer-social-icon-link:hover,
 .footer-social-icon-link:focus {
   background-color: var(--accent);
+}
+.subscribe {
+  padding-top: 72px;
+}
+.email-label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subscribe-input {
+  padding-left: 16px;
+  margin-top: 20px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  margin-right: 12px;
+}
+.subscribe-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-item {
+  margin-left: 10px;
 }
 /* work */
 .work-list {
